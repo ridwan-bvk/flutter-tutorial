@@ -1,0 +1,51 @@
+Whatsapp
+----------
+refrensi:
+https://github.com/pedroslopez/whatsapp-web.js/
+
+npm init
+
+package name: (whatsapp-api)
+version: (1.0.0)
+description: whatsapp-api by ridwan
+entry point: (index.js) app.js
+test command:
+git repository:
+keywords: whatsaap-api,nodejs
+author: ridwan
+license: (ISC) MIT
+About to write to D:\flutter code\whatsapp-api\package.json:
+
+{
+  "name": "whatsapp-api",
+  "version": "1.0.0",
+  "description": "whatsapp-api by ridwan",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsaap-api",
+    "nodejs"
+  ],
+  "author": "ridwan",
+  "license": "MIT"
+}
+
+
+instalasi library:
+2.npm i whatsapp-web.js
+3.tambahkan file app.js copy contoh yg direfrensi
+4.tambahkan di package.json dibawah script
+"start": "node app.js",
+5.jalankan npm start (akan muncul qr code string)
+6. untuk menampilkan qr code image nya perlu install
+library qrcode terminal ---  npm i qrcode-terminal----
+7.cara gunakannya:
+var qrcode = require('qrcode-terminal');
+8. session agar tidak scan ulang
+9.npm install express -->ini untuk bisa dibaca selain node js
+10. npm install socket.io -->ini untuk pembacaan qr code
+11.npm install qrcode 
+12.npm install -g nodemon -->agar node js langsing kerestart
+  rubah   "start": "node app.js" menjadi "start": "node app.js",
